@@ -15,7 +15,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Page() {
 
     const questionList = questionService.getQuestions();
-    console.log(questionList)
     // Create table headers consisting of 4 columns.
     const headers = [
         { title: 'Pytanie', prop: 'question', isFilterable: true },
