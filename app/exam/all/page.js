@@ -66,7 +66,7 @@ function ExamAll() {
 
         }
     }
-    
+    // useEffect to update question immediately after question id change, to avoid delay from React state asynchoronous behavior
     useEffect(() => {
         setQuestion(qList[questionId]);
     }
