@@ -2,13 +2,14 @@
 import { Row, Col, Container } from "react-bootstrap";
 import TestCard from "./components/TestCard";
 import questionService from "./services/questions";
+import Page from "./questions/all/page"
 
 
 export default function Home() {
   return (
     <>
-      
-      <Container>
+      <Page />
+      {/* <Container>
         <Row>
           <Col>
             <TestCard 
@@ -27,7 +28,7 @@ export default function Home() {
         </Row>
       </Container>
       <Container>
-      </Container>
+      </Container> */}
     </>
   );
 }

@@ -13,7 +13,7 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Strona Główna</Nav.Link>
-            <Nav.Link href="#link">Testy</Nav.Link>
+            {/* <Nav.Link href="#link">Testy</Nav.Link> */}
             <Nav.Link href="/questions/all">Pytania</Nav.Link>
           </Nav>
         </Navbar.Collapse>
